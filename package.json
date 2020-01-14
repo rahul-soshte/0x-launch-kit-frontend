@@ -37,7 +37,7 @@
         "typesafe-actions": "^3.0.0"
     },
     "scripts": {
-        "start": "cross-env PORT=3001 react-scripts start",
+        "start": "cross-env PORT=3004 react-scripts start",
         "build": "GENERATE_SOURCEMAP=false react-scripts build",
         "test": "REACT_APP_NETWORK_ID=50 react-scripts test --env=node",
         "test-once": "cross-env CI=true react-scripts test --coverage",
